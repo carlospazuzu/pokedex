@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/pokemon/chupa_cabra
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Fri, 31 Mar 2023 16:26:33 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '9'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=3600, s-maxage=3600
+      Etag:
+      - W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+      Function-Execution-Id:
+      - 1ik3bgu40idm
+      X-Cloud-Trace-Context:
+      - ceb1bcb8070b8133e146c53833c80d00;o=1
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-yyz4582-YYZ
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1680279992.794723,VS0,VE1333
+      Vary:
+      - Accept-Encoding, x-fh-requested-host, accept-encoding
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+      Cf-Cache-Status:
+      - EXPIRED
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=S5P6H1GCpcpAptWQE4NsieqMiPlpcxFKQR9XbjQNjrzf%2FMl7Z%2FPOrAhCp0c3L1y2R31jkIO4mF7zfSMEC4FniLPY%2BrVFs2YokD2ZRfmbCvjRPkoX70pSBlaQIC%2BXlOah643COEmlbIap"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b09f45c3d24278a-GIG
+    body:
+      encoding: UTF-8
+      string: Not Found
+  recorded_at: Fri, 31 Mar 2023 16:26:33 GMT
+recorded_with: VCR 6.1.0

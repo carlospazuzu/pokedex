@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/pokemon/belzebu
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Fri, 31 Mar 2023 14:24:18 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '9'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=3600, s-maxage=3600
+      Etag:
+      - W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+      Function-Execution-Id:
+      - cvcp5me507ky
+      X-Cloud-Trace-Context:
+      - ce5840287133a8d944a258bdb1f4073b
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-yyz4567-YYZ
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1680272657.051124,VS0,VE1299
+      Vary:
+      - Accept-Encoding, x-fh-requested-host, accept-encoding
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+      Cf-Cache-Status:
+      - MISS
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Y2TL%2BoTE2vcG4ilgG7BJIq9kVVtdyFpVz5Y3SOes3o5n8EV14Bs1XX1QhFjzP%2FLV65Hp064JaFFpisSLM8wcPPj7M%2FWokBM6MP3h37VIEsUTKpKHGwt0TIfRICFnYDi%2BU3ka5aPP%2B5X2"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b09414a18e9259c-GIG
+    body:
+      encoding: UTF-8
+      string: Not Found
+  recorded_at: Fri, 31 Mar 2023 14:24:18 GMT
+recorded_with: VCR 6.1.0
