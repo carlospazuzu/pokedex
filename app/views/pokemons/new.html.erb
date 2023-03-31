@@ -1,0 +1,11 @@
+<h1>Creating a new Pokemon</h1>
+
+<% if flash[:notice] %>
+  <%= flash[:notice] %>
+<% end %>
+
+<%= form_with model: @pokemon do |form| %>
+  <%= form.label 'Name' %>
+  <%= form.text_field :name %>
+  <%= form.submit %>
+<% end %>
